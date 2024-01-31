@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+ 
+ .container>header{
+   background-image: url(fptpolytechnic696x464-1520316506.jpg);
+   background-size: 100% 100%;
+   height: 0px;
+   padding-bottom: 25%;
+ }
+ .container ul li{
+    display: inline-block;
+    position: relative;
+
+ }
+ .container ul li a{
+    display: block;
+
+ }
+ .menu ul {
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+
+
+ }
+ .menu ul li a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    line-height: 25px;
+
+
+ }
+ .menu ul ul{
+    position: absolute;
+    display: none;
+list-style: none;
+border-radius: 2px;
+width: 200px;
+background-color: white;
+
+ }
+ .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+text-align: left;
+padding: 0 10px;
+
+ }
+ .memu ul li:hover ul {
+    display: block;
+ }
+ .memu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+ }
+ .container nav{
+     line-height: 40px;
+     background-color: orangered;
+     color: white;
+     text-align: center;
+     font-variant: small-caps
+ }
+ .container nav a{
+     color: white;
+ }
+ .container article{
+     min-height: 500px;
+     width: 75%;
+     float: left;
+     background-color: white;
+     margin-bottom: 20px;
+ }
+ .container aside{
+     min-height: 500px;
+     width: 25%;
+     float: right;
+     background-color: lightgray;
+     margin-bottom: 20px;
+ }
+ .container aside ul {
+     list-style: none;
+     padding: 20px;
+     text-decoration: none;
+ }
+ .container aside ul a {
+     text-decoration: none;
+ }
+ .container footer{
+     clear: both;
+     background-color: lightcyan;
+     text-align: center;
+     font-variant: small-caps;
+     border-top: 5px double orangered;
+     line-height: 50px;
+    
+ }
+ iframe[name=_page]{
+    width: 100% ;
+    min-height: 500px;
+
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    position: relative;
+    background-image: url(PJIVcQY.jpg);
+    background-size: 100% 100%;
+    height: 280px;
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+}
+header ul.menu li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 45px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+header ul.menu li a {
+    position: relative;
+    display: inline-block;
+    float: left;
+    line-height: 45px;
+    padding: 0 8px;
+    color: orangered;
+    text-decoration: none ;
+}
+header ul.menu li a:hover {
+    color:#FFF;
+}
+.clearfix{
+    visibility: visible;
+    clear: both;
+}
+.top-right{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 15px #FFF;
+   padding-left:10px ;
+   background-color: #FFF;
+}
+.company-info{
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+
+}
+.company-info h1{
+    font-size: 50px;
+    color: #FFF;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px orangered;
+    border-bottom: 2px orangered solid;
+
+}
+.company-info p {
+    text-align: justify;
+    font-size: 20px;
+    color: orangered;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+nav{
+    background: orangered;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+header .logo h1{
+    color: #fff;
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px orangered;
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+    
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+
+}
+.menu>ul{
+padding:0 pixel;
+margin:0 pixel;
+list-style:none;
+border-radius:3 px;
+background-color:orangered;
+text-align:center;
+}
+.menu>ul>li>a{
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+color:white;
+padding:0 10 px;
+line-height:40 px;
+}
+.menu>ul>li>a:hover{
+color:yellow;
+}
+.menu ul ul{
+
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color:orangered;
+    color: white;
+
+}

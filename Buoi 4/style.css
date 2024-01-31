@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px 30px 40px;
+    border: 2px solid palevioletred;
+    margin: 40px 30px 20px 10px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 34px violet;
+}
+
+.div1{
+    background-color: aqua;
+}
+.div2{background-color: aquamarine;}
+body {
+    background-image: url(https://th.bing.com/th?q=Anh+Meo+Hai&w=120&h=...mw=247);
+
+}

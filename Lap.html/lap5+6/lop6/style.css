@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container > header{
+    background-image: url(anh.webp);
+    background-size: 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+.container nav a{
+    color: white;
+    margin-bottom: 20px;
+}
+.container article{
+    min-height: 500px;
+    width: 75%;
+    float: left;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.container aside{
+    min-height: 500px;
+    width: 25%;
+    float: right;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+.container aside ul{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+.container aside ul li a{
+    text-decoration: none;
+}
+.container footer{
+    clear: both;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    border-top: 5px double orangered;
+    line-height: 50px;
+    margin-top: 30px;
+}.container nav a:hover{
+    background-color: white;
+    color: orangered;
+}
+iframe[name=_page]{
+    width: 100%;
+    min-height: 500px;
+}
